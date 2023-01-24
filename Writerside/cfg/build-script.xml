@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root
+        SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/build-script.dtd">
+<root>
+    <builds>
+        <instance id="w" master="project.ihp">
+            <artifact name="webHelpW2.zip" local-update="true"/>
+        </instance>
+    </builds>
+</root>
