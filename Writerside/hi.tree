@@ -2,9 +2,9 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/product-profile.dtd">
 
-<instance-profile id="w"
-                 name="Writerside"
-                 start-page="about_writerside.topic">
+<instance-profile id="hi"
+                 name="Help Instance"
+                 start-page="first_topic.topic">
 
-    <toc-element topic="about_writerside.topic"/>
+    <toc-element topic="first_topic.topic"/>
 </instance-profile>
