@@ -4,15 +4,13 @@
 You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
 
 ## Add new topics
-You can create empty topics, or choose a template for different types of content that contains some boilerplate
-structure to help you get started:
+You can create empty topics, or choose a template for different types of content that contains some boilerplate structure to help you get started:
 
 ![Create new topic options](new_topic_options.png){ width=290 }{border-effect=line}
 
 ## Write content
 %product% supports two types of markup: Markdown and XML.
-When you create a new help article, you can choose between two topic types,
-but this doesn't mean you have to stick to a single format.
+When you create a new help article, you can choose between two topic types, but this doesn't mean you have to stick to a single format.
 You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
 
 ## Inject XML
@@ -34,13 +32,13 @@ For example, this is how you inject a procedure:
 To add switchable content, you can make use of tabs (inject them by starting to type `tab` on a new line):
 
 <tabs>
-<tab title="Markdown">
-<code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 } </code-block>
-</tab> 
-<tab title="Semantic markup">
-<code-block lang="xml">
-<![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
-</tab> 
+    <tab title="Markdown">
+        <code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 }</code-block>
+    </tab>
+    <tab title="Semantic markup">
+        <code-block lang="xml">
+            <![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
+    </tab>
 </tabs>
 
 ### Collapsible blocks
@@ -52,16 +50,16 @@ Content under such header will be collapsed by default, but you can modify the b
 `default-state="expanded"`
 
 ### Convert selection to XML
-If you need to extend an element with more functions, you can convert selected content from Markdown to
-semantic markup. For example, if you want to merge cells in a table, it's much easier to convert it to XML than
-do this in Markdown. Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
+If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
+For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
+Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
 
 <img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
 
 ## Feedback and support
-Please report any issues, usability improvements, or feature requests to our
+Please report any issues, usability improvements, or feature requests to our 
 <a href="https://youtrack.jetbrains.com/newIssue?project=WRS">YouTrack project</a>
-(you will need to register)
+(you will need to register).
 
 You are welcome to join our
 <a href="https://join.slack.com/t/writerside/shared_invite/zt-1hnvxnl0z-Nc6RWXTppRI2Oc566vumYw">public Slack workspace</a>.
