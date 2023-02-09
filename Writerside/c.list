@@ -2,5 +2,5 @@
 <!DOCTYPE categories
         SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/categories.dtd">
 <categories>
-    <category id="related" name="Related" order="1"/>
+    <category id="wrs" name="Writerside documentation" order="1"/>
 </categories>
