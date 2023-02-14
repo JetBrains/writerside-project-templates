@@ -1,0 +1,2 @@
+#!/bin/sh
+jar cvfM ./starterTemplate.zip ./Writerside
