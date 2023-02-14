@@ -1,2 +1,2 @@
 #!/bin/sh
-jar cvfM ./starterTemplate.zip ./Writerside
+zip -r ./starterTemplate.zip ./Writerside -x \*.DS_Store
