@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="API Overview" id="API-Overview">
+
+    <chapter title="Introduction" id="introduction">
+        <p>Provide a brief introduction to the API, explaining its purpose and scope.</p>
+    </chapter>
+    <chapter title="What you can do using " id="what-you-can-do-using">
+        <p>Provide some simple usage examples to help users get started quickly.</p>
+    </chapter>
+    <chapter title="Authentication" id="authentication">
+        <p>Explain the authentication methods and requirements for accessing the API.</p>
+    </chapter>
+    <chapter title="Base URL" id="base-url">
+        <p>Specify the base URL for making API requests.</p>
+    </chapter>
+    <chapter title="Endpoints" id="endpoints">
+        <p>List the available API endpoints, along with a brief description of each.</p>
+        <chapter title="Endpoint 1" id="endpoint-1">
+            <list>
+                <li>
+                    <control>Description:</control>
+                    [Brief description of the endpoint]
+                </li>
+                <li>
+                    <control>HTTP Method:</control>
+                    [GET, POST, PUT, DELETE, etc.]
+                </li>
+                <li>
+                    <control>Endpoint URL:</control>
+                    <code>/api/endpoint1</code></li>
+            </list>
+        </chapter>
+        <chapter title="Endpoint 2" id="endpoint-2">
+            <list>
+                <li>
+                    <control>Description:</control>
+                    [Brief description of the endpoint]
+                </li>
+                <li>
+                    <control>HTTP Method:</control>
+                    [GET, POST, PUT, DELETE, etc.]
+                </li>
+                <li>
+                    <control>Endpoint URL:</control>
+                    <code>/api/endpoint2</code></li>
+            </list>
+        </chapter>
+    </chapter>
+    <chapter title="Rate Limiting" id="rate-limiting">
+        <p>Explain any rate limiting policies, if applicable.</p>
+    </chapter>
+    <chapter title="Error Handling" id="error-handling">
+        <p>Describe the API's error response format and provide common error codes and their meanings.</p>
+    </chapter>
+    <chapter title="Versioning" id="versioning">
+        <p>Explain how the API versioning works and how to specify the desired API version in requests.</p>
+    </chapter>
+    <seealso>
+        <!--List any additional resources, such as tutorials or guides, that can help users understand and use the API effectively.-->
+    </seealso>
+
+</topic>
