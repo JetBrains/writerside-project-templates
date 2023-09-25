@@ -1,6 +1,7 @@
 # Changes
 
-<!--Maintain a changelog or release notes section to inform users of updates, changes, and new features in different API versions.-->
+<!--Maintain a changelog or release notes section to inform users of updates, 
+changes, and new features in different API versions.-->
 
 ## September 1, 2023
 
@@ -15,7 +16,7 @@ What's changed
 </tr>
 <tr>
 <td>
-/pet/delete
+/pet/gift
 </td>
 <td>
 The method is deprecated, we removed it from the documentation.
@@ -23,12 +24,12 @@ The method is deprecated, we removed it from the documentation.
 </tr>
 <tr>
 <td>
-/pet/{find}
+<a href="Find-pet-by-ID.md">/pet/{petId}</a>
 </td>
 <td>
 <list>
-<li>added</li>
-<li>removed</li>
+<li>added a new <code>status</code> field</li>
+<li>removed an old <code>state</code> field</li>
 </list>
 </td>
 </tr>
