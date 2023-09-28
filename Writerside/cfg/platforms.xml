@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<platforms>
+<platform id="primary">
+    <src>keymap.xml</src>
+    <use-keymaps>
+        primary_Windows
+    </use-keymaps>
+</platform>
+<platform id="secondary">
+    <use-keymaps>
+        secondary_macOS
+    </use-keymaps>
+    <src>keymap.xml</src>
+</platform>
+</platforms>

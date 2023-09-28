@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keymap id="km">
+   <Action id="GotoFile">
+      <Description>Go to File...</Description>
+      <Shortcut layout="primary_Windows">Ctrl+Shift+N</Shortcut>
+      <Shortcut layout="secondary_macOS">⇧ ⌘ O</Shortcut>
+   </Action>
+   <Action id="ShowIntentionActions">
+      <Description>Show Context Actions</Description>
+      <Shortcut layout="primary_Windows">Alt+Enter</Shortcut>
+      <Shortcut layout="secondary_macOS">⌥ ⏎</Shortcut>
+   </Action>
+   <Action id="Generate">
+      <Description>Generate...</Description>
+      <Shortcut layout="primary_Windows">Alt+Insert</Shortcut>
+      <Shortcut layout="secondary_macOS">⌘ N</Shortcut>
+   </Action>
+
+</Keymap>
