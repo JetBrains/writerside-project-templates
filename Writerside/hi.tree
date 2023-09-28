@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE instance-profile
-        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+        SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/product-profile.dtd">
 
 <instance-profile id="hi"
                  name="Help Instance"
                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md"/>
+    <toc-element topic="Play-with-semantic-attributes.md"/>
+    <toc-element topic="Add-semantic-elements-to-Markdown.md"/>
+    <toc-element topic="Convert-Markdown-to-XML.md"/>
+    <toc-element topic="Quickly-add-images-links-and-tables.md"/>
+    <toc-element topic="Add-Mermaid-diagrams.md"/>
+    <toc-element topic="Add-math-formulas.md"/>
 </instance-profile>
