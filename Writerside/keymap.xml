@@ -15,5 +15,19 @@
       <Shortcut layout="primary_Windows">Alt+Insert</Shortcut>
       <Shortcut layout="secondary_macOS">⌘ N</Shortcut>
    </Action>
+   <Action id="EditorTab">
+      <Description>Tab</Description>
+      <Shortcut layout="primary_Windows">Tab</Shortcut>
+      <Shortcut layout="secondary_macOS">⇥</Shortcut>
+   </Action>
+   <Action id="CtrlCmd">
+      <Shortcut layout="primary_Windows">Ctrl</Shortcut>
+      <Shortcut layout="secondary_macOS">⌘</Shortcut>
+   </Action>
+   <Action id="RenameElement">
+      <Description>Rename...</Description>
+      <Shortcut layout="primary_Windows">Shift+F6</Shortcut>
+      <Shortcut layout="secondary_macOS">⇧ F6</Shortcut>
+   </Action>
 
 </Keymap>

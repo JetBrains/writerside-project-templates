@@ -1,6 +1,6 @@
 # Add Mermaid diagrams
 
-To add a Mermaid diagrm, add a code block and define its language as 'mermaid':
+To add a Mermaid diagram, add a code block and define its language as `mermaid`:
 
 ```mermaid
 flowchart LR

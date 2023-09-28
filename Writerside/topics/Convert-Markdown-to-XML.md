@@ -1,7 +1,7 @@
 # Convert Markdown to XML
 
-Create a table: press <shortcut key="Generate"/>, select
-<ui-path>Table</ui-path> and choose the number of columns and rows. 
+To create a table, press <shortcut key="Generate"/>, select
+<control>Table</control> and choose the number of columns and rows. 
 
 | Item | Description | Example |
 |------|-------------|---------|
@@ -9,12 +9,9 @@ Create a table: press <shortcut key="Generate"/>, select
 |      |             |         |
 
 
-If you want to make the table more complex and split or merge cells,
-you can convert it into XML.
-Place the caret anywhere in the table, press <shortcut key="ShowIntentionActions"/> and
-choose <ui-path>Convert Markdown table to XML format</ui-path>:
-
-
+If you want to make the table more complex, split or merge cells, you can convert it to XML.
+Place the caret anywhere in the table, press <shortcut key="ShowIntentionActions"/>,
+and select <control>Convert Markdown table to XML format</ui-path>.
 
 ```xml
 <table>

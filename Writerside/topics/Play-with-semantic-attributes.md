@@ -1,20 +1,34 @@
-# Play with semantic attributes
+# Use semantic attributes in Markdown
 
-### Headings
+Semantic attributes let you adjust the behavior and appearance of various elements.
 
-Add `{collapsible="true"}`under the heading above to make content collapsible.
-Add the `default-state` attribute and set its value to `expanded` to make
-content expanded by default.
+## Headings
 
-### Admonition blocks
+Add `{collapsible="true"}` after the heading above to make the whole chapter collapsible.
+Add the `default-state` attribute and set its value to `expanded`
+to render the chapter as expanded by default.
 
-> Note highlighting some important information
+```
+## Headings {collapsible="true" default-state="expanded"}
+```
+
+## Admonition blocks
+
+Markdown blockquotes render as tips with a grey background by default:
+
+> Some important information
 >
 
-Add `{style="warning"}` on the next line: the admonition block will appear against the
-red background.
+Add `{style="note"}` after the blockquote to render it as a note against a green background.
+Or add `{style="warning"}` to render a warning against a red background.
 
-### Code blocks
+```
+> Some important information
+>
+{style="warning"}
+```
+
+## Code blocks
 
 ```
 class Bicycle {
@@ -23,10 +37,26 @@ class Bicycle {
     private int gear = 5;
 
     // behavior or method
-    public void braking() {
-        System.out.println("Working of Braking");
+    public void brake() {
+        System.out.println("This is how brakes work");
     }
 }
 ```
 
-Specify the language for the code sample: add `Java` after the opening backticks - code highlighting will be applied.
+Specify a language for the code sample to render it with proper highlighting.
+In this case, add `java` after the opening backticks.
+
+```
+    ```java
+    class Bicycle {
+
+        // state or field
+        private int gear = 5;
+
+        // behavior or method
+        public void brake() {
+            System.out.println("This is how brakes work");
+        }
+    }
+    ```
+```

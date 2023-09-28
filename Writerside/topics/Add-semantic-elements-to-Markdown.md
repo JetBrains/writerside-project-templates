@@ -1,24 +1,26 @@
 # Add semantic elements to Markdown
 
+Some elements are not available in Markdown.
+You can add them only as XML.
+
 ## Tabs
 
-You can use tabs to tailor content for different frameworks, languages,
-operating systems, etc.
+Use tabs to switch between content for different frameworks, languages, and operating systems.
 
-To add tabs to markdown, start typing `tabs` and press <shortcut>Tab</shortcut>.
+Start typing `tabs` and press <shortcut key="EditorTab"/>.
 
 <tabs>
 <tab title="Java">
 
 ```
-    class Bicycle {
+class Bicycle {
 
     // state or field
     private int gear = 5;
 
     // behavior or method
-    public void braking() {
-        System.out.println("Working of Braking");
+    public void brake() {
+        System.out.println("This is how brakes work");
     }
 }
 ```
@@ -32,8 +34,8 @@ To add tabs to markdown, start typing `tabs` and press <shortcut>Tab</shortcut>.
     private val gear = 5
 
    // behavior or method
-    fun braking(): Unit {
-    println("Working of Braking")
+    fun brake(): Unit {
+    println("This is how brakes work")
     }
 }
 ```
@@ -42,7 +44,7 @@ To add tabs to markdown, start typing `tabs` and press <shortcut>Tab</shortcut>.
 
 ## Definition list
 
-Start typing `deflist` and press <shortcut>Tab</shortcut>.
+Start typing `deflist` and press <shortcut key="EditorTab"/>.
 
 <deflist>
     <def title="Instance">
