@@ -19,7 +19,7 @@ Explain how to authenticate with the API, including obtaining API keys or tokens
 Provide a simple example of making a request to one of the API's endpoints. Use clear and concise code snippets.
 
 ```http
-GET /api/endpoint1 HTTP/1.1
+GET /api/endpoint HTTP/1.1
 Host: api.example.com
 Authorization: Bearer YOUR_ACCESS_TOKEN
 ```

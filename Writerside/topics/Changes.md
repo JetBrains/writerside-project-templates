@@ -1,35 +1,25 @@
 # Changes
 
-<!--Maintain a changelog or release notes section to inform users of updates, 
-changes, and new features in different API versions.-->
+<!-- Maintain a changelog or release notes section
+to inform users about updates, changes, and new features in different API versions -->
 
 ## September 1, 2023
 
 <table>
 <tr>
-<td>
-Method
-</td>
-<td>
-What's changed
-</td>
+<td>Method</td>
+<td>Changes</td>
 </tr>
 <tr>
-<td>
-/pet/gift
-</td>
-<td>
-The method is deprecated, we removed it from the documentation.
-</td>
+<td><code>/pet/gift</code></td>
+<td>Deprecated and removed from the documentation</td>
 </tr>
 <tr>
-<td>
-<a href="Find-pet-by-ID.md">/pet/{petId}</a>
-</td>
+<td><a href="Find-pet-by-ID.md"><code>/pet/{petId}</code></a></td>
 <td>
 <list>
-<li>added a new <code>status</code> field</li>
-<li>removed an old <code>state</code> field</li>
+<li>added the <code>status</code> field</li>
+<li>removed the <code>state</code> field</li>
 </list>
 </td>
 </tr>
