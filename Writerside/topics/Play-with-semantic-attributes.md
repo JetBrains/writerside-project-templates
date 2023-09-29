@@ -30,33 +30,31 @@ Or add `{style="warning"}` to render a warning against a red background.
 
 ## Code blocks
 
+By default, code blocks render with no highlighting, as plain text.
+
 ```
-class Bicycle {
-
-    // state or field
-    private int gear = 5;
-
-    // behavior or method
-    public void brake() {
-        System.out.println("This is how brakes work");
-    }
-}
+<deflist>
+    <def title="Instance">
+        <include from="snippets-library.topic" element-id="instance"/>
+    </def>
+</deflist>
 ```
 
 Specify a language for the code sample to render it with proper highlighting.
-In this case, add `java` after the opening backticks.
+In this case, add `xml` after the opening backticks.
 
 ```
-    ```java
-    class Bicycle {
-
-        // state or field
-        private int gear = 5;
-
-        // behavior or method
-        public void brake() {
-            System.out.println("This is how brakes work");
-        }
-    }
+    ```xml
+    <deflist>
+        <def title="Instance">
+            <include from="snippets-library.topic" element-id="instance"/>
+        </def>
+    </deflist>
     ```
 ```
+
+> Highlighting support in the local preview depends on the language support.
+If you need Java, Kotlin, or Python highlighting,
+install and enable the corresponding IntelliJ plugin.
+> 
+{style="note"}
