@@ -6,6 +6,6 @@ This is a sample Pet Store Server based on the OpenAPI 3.0 specification.
 > 
 {style="note"}
 
-<!-- Use the <apidoc> tag to generate the documentation for a specific endpoint and method.
+<!-- Use the <api-doc> tag to generate the documentation for a specific endpoint and method.
 For example: <apidoc openapi-path="path/to/openapi.yaml" endpoint="/pet" method="post"/>
 See the subsections here for specific examples. -->

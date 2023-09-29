@@ -306,7 +306,7 @@ paths:
                   format: int32
       security:
         - api_key: []
-  /store/order:
+  /store/order/v1:
     post:
       tags:
         - store
@@ -328,14 +328,38 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/Order'
+  /store/order/v2:
+    post:
+      tags:
+        - store
+      summary: Place an order for a pet (v2)
+      description: Place a new order in the store with v2 endpoint
+      operationId: placeOrderV2
+      x-swagger-router-controller: OrderController
+      responses:
+        '201':
+          description: Order successfully placed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+        '400':
+          description: Bad request
+        '405':
+          description: Invalid input
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
   '/store/order/{orderId}':
     get:
       tags:
         - store
       summary: Find purchase order by ID
       x-swagger-router-controller: OrderController
-      description: >-
-        For valid response try integer IDs with value <= 5 or > 10. Other values
+      description: For valid response try integer IDs with value less than 5 or > 10. Other values
         will generate exceptions.
       operationId: getOrderById
       parameters:
@@ -416,6 +440,13 @@ paths:
                 $ref: '#/components/schemas/User'
         default:
           description: successful operation
+        '400':
+          description: Invalid username supplied
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
       requestBody:
         content:
           application/json:
@@ -722,6 +753,23 @@ components:
       xml:
         name: '##default'
       type: object
+    ErrorResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        details:
+          type: array
+          items:
+            type: object
+            properties:
+              typeUrl:
+                type: string
+              value:
+                type: string
+        message:
+          type: string
   requestBodies:
     Pet:
       content:

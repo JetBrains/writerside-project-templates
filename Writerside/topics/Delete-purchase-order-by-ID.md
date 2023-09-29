@@ -1,3 +1,3 @@
 # Delete purchase order by ID
 
-<apidoc openapi-path="./../openapi.yaml" endpoint="/store/order/{orderId}" method="delete"/>
+<api-endpoint openapi-path="./../openapi.yaml" endpoint="/store/order/{orderId}" method="delete"/>

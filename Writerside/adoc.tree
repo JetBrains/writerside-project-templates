@@ -10,14 +10,6 @@
     <toc-element topic="API-quickstart.md"/>
     <toc-element topic="API-reference.md">
         <toc-element topic="Pet.md">
-            <toc-element topic="Add-a-new-pet-to-the-store.md"/>
-            <toc-element topic="Update-an-existing-pet.md"/>
-            <toc-element topic="Finds-Pets-by-status.md"/>
-            <toc-element topic="Finds-Pets-by-tags.md"/>
-            <toc-element topic="Find-pet-by-ID.md"/>
-            <toc-element topic="Updates-a-pet-in-the-store-with-form-data.md"/>
-            <toc-element topic="Deletes-a-pet.md"/>
-            <toc-element topic="Uploads-an-image.md"/>
         </toc-element>
         <toc-element topic="Store.md">
             <toc-element topic="Returns-pet-inventories-by-status.md"/>

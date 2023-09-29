@@ -1,3 +1,3 @@
 # Delete user
 
-<apidoc openapi-path="./../openapi.yaml" endpoint="/user/{username}" method="delete"/>
+<api-endpoint openapi-path="./../openapi.yaml" endpoint="/user/{username}" method="delete"/>
