@@ -1,7 +1,6 @@
-# Creates list of users with given input array
+# Create list of users with given input array
 
-<!--If an operation has a few responses, you can add samples to each of them. 
-Each sample will go into a separate tab.-->
+<!--If an operation has several responses, you can add samples for each of them separately.-->
 
 <api-endpoint openapi-path="./../openapi.yaml" endpoint="/user/createWithList" method="post">
     <response type="200">

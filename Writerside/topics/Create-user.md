@@ -1,7 +1,7 @@
 # Create user
 
 <!--Specify request and response samples manually. 
-You can specify a sample in a <sample> element or include it from a file using src atttibute same as for a regular code block.-->
+You can add the sample inside the <sample> element or include it from a file using the 'src' attribute.-->
 
 <api-endpoint openapi-path="./../openapi.yaml" endpoint="/user" method="post">
     <request>

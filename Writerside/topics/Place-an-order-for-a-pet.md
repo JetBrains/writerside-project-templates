@@ -1,7 +1,7 @@
-# Place an order for a pet
+# Place order for pet
 
-<!--You can use any other Markdown or XMl elements around the API endpoint reference 
-or place API endpoints in chapters or tabs. For example, this is how you can display two different versions of a single endpoint. -->
+<!--You can use any other Markdown or XMl elements around the API endpoint reference,
+for example, put API endpoints in chapters or tabs. -->
 
 <tabs>
 <tab title="v1">
