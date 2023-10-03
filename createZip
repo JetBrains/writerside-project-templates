@@ -1,2 +1,2 @@
 #!/bin/sh
-zip -r ./apiPlaygraoundTemplate.zip ./Writerside -x \*.DS_Store
+zip -r ./apiPlaygroundTemplate.zip ./Writerside -x \*.DS_Store
