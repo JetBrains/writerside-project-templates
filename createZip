@@ -1,2 +1,2 @@
 #!/bin/sh
-zip -r ./starterTemplate.zip ./Writerside -x \*.DS_Store
+zip -r ./emptyProject.zip ./Writerside -x \*.DS_Store
