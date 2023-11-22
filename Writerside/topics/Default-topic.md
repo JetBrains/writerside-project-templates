@@ -63,11 +63,11 @@ Please report any issues, usability improvements, or feature requests to our
 (you will need to register).
 
 You are welcome to join our
-<a href="https://join.slack.com/t/writerside/shared_invite/zt-1hnvxnl0z-Nc6RWXTppRI2Oc566vumYw">public Slack workspace</a>.
+<a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.
 Before you do, please read our [Code of conduct](https://plugins.jetbrains.com/plugin/20158-writerside/docs/writerside-code-of-conduct.html).
 We assume that you’ve read and acknowledged it before joining.
 
-You can also always send an email to [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
+You can also always email us at [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
 
 <seealso>
     <category ref="wrs">
