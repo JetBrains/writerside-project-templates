@@ -8,7 +8,6 @@ They will be placed in tabs.Developers can use these samples as templates when m
 <request>
 
 <sample title="JSON">
-
 {
 "id": 10,
 "username": "theUser",
@@ -19,11 +18,9 @@ They will be placed in tabs.Developers can use these samples as templates when m
 "phone": "12345",
 "userStatus": 1
 }
-
 </sample>
 
 <sample lang="javascript" title="JavaScript">
-
 const userPayload = {
   id: 10,
   username: "theUser",
@@ -34,9 +31,7 @@ const userPayload = {
   phone: "12345",
   userStatus: 1
 };
-
 console.log(userPayload);
-
 </sample>
 
 </request>
