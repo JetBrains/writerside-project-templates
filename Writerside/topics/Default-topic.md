@@ -64,16 +64,16 @@ Please report any issues, usability improvements, or feature requests to our
 
 You are welcome to join our
 <a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.
-Before you do, please read our [Code of conduct](https://plugins.jetbrains.com/plugin/20158-writerside/docs/writerside-code-of-conduct.html).
+Before you do, please read our [Code of conduct](https://www.jetbrains.com/help/writerside/writerside-code-of-conduct.html).
 We assume that you’ve read and acknowledged it before joining.
 
 You can also always email us at [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
 
 <seealso>
     <category ref="wrs">
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/markup-reference.html">Markup reference</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/manage-table-of-contents.html">Reorder topics in the TOC</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">Build and publish</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/configure-search.html">Configure Search</a>
+        <a href="https://www.jetbrains.com/help/writerside/markup-reference.html">Markup reference</a>
+        <a href="https://www.jetbrains.com/help/writerside/manage-table-of-contents.html">Reorder topics in the TOC</a>
+        <a href="https://www.jetbrains.com/help/writerside/local-build.html">Build and publish</a>
+        <a href="https://www.jetbrains.com/help/writerside/configure-search.html">Configure Search</a>
     </category>
 </seealso>
