@@ -27,6 +27,10 @@ For example, this is how you inject a procedure:
     </step>
 </procedure>
 
+And here is how you can include a snippet from a library:
+
+<include from="lib.md" element-id="sample"/>
+
 ## Add interactive elements
 
 ### Tabs
