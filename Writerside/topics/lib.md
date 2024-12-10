@@ -1,5 +1,6 @@
 ---
 is-library: true
+title: Library of snippets
 ---
 
 Any topic file marked with `is-library: true` is considered a library topic.
